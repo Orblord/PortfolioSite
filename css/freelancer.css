@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous");
 body {
-  font-family: 'Lato';
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1,
@@ -9,9 +10,9 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Righteous", cursive;
+  letter-spacing: 0.06em;
 }
-
 
 section {
   padding: 6rem 0;
@@ -59,11 +60,14 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Righteous", cursive;
 }
 
 #mainNav .navbar-brand {
   color: #fff;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  letter-spacing: 0.06em;
 }
 
 #mainNav .navbar-nav {
@@ -79,7 +83,8 @@ section h2 {
   color: #2ecc71;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 
@@ -113,7 +118,9 @@ section h2 {
     color: #fff;
     background: #2ecc71;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #2ecc71;
   }
@@ -138,7 +145,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: "Fira Sans", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -178,7 +185,10 @@ header.masthead h2 {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio
+  .portfolio-item
+  .portfolio-item-caption
+  .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
@@ -284,7 +294,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   color: #fff;
 }
 
@@ -296,7 +306,9 @@ a {
   color: #2ecc71;
 }
 
-a:focus, a:hover, a:active {
+a:focus,
+a:hover,
+a:active {
   color: #2ecc71;
 }
 
@@ -325,17 +337,21 @@ a:focus, a:hover, a:active {
   border-color: #27ae60;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
@@ -344,18 +360,18 @@ hr {
   width: 33%;
   color: #fdcb6e;
   background-color: #fdcb6e;
-  height: 5px; 
+  height: 5px;
 }
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 #profilepic {
   height: 280px;
