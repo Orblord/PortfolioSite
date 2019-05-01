@@ -1,17 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous|Montserrat:500");
 body {
   font-family: "Fira Sans", sans-serif;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-weight: 700;
   font-family: "Righteous", cursive;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
+}
+
+h4,
+h5,
+h6,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 section {
@@ -362,6 +366,7 @@ hr {
   background-color: #fdcb6e;
   height: 5px;
 }
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -377,4 +382,8 @@ hr {
   height: 280px;
   width: 264px;
   animation: float 6s ease-in-out infinite;
+}
+
+.portfolio-img {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.3);
 }
