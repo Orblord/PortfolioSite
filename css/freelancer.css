@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous|Montserrat:600|Caveat:700");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous|Montserrat:600|Caveat");
 body {
   font-family: "Fira Sans", sans-serif;
 }
@@ -398,6 +398,5 @@ hr {
 
 .scriptish {
   font-family: "Caveat", cursive;
-  font-weight: 700;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
