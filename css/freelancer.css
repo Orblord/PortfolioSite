@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous|Montserrat:600");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Righteous|Montserrat:600|Caveat:700");
 body {
   font-family: "Fira Sans", sans-serif;
 }
@@ -183,11 +183,11 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #2ecc71;
+  background-color: #fdcb6e;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .portfolio
@@ -394,4 +394,10 @@ hr {
 }
 .opa-full {
   opacity: 1;
+}
+
+.scriptish {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.75rem;
 }
